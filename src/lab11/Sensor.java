@@ -7,12 +7,12 @@ public class Sensor implements Runnable {
 	
 	public Sensor(String sensorName){
 		this.sensorName = sensorName;
-		sensorThread = new Thread();
+		System.out.printf("%s Created\n", sensorName);
 	}
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
+		 System.out.printf(" %s Started\n", sensorName);
 		
 	}
 	
