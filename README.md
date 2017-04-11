@@ -3,7 +3,7 @@ This project is a simple lab to demonstrate knowledge of basic Java cocurrancy p
 
 *In this assignment you will use threads to simulate the action of the sensors in our semester project. It also simulates the notion of concurrent execution, in that each thread represents a separate activity in the sensors. We will simulate the tripping of the sensors (eye, gate, and pad) by using a button (distinct from the one in the chronotimer panel). You will be using the run(), sleep(), join(), and interrupt() method in the Thread interface.*
 
-##Objectives
+## Objectives
 
 - To be able to create a Runnable class with appropriate required methods
 - To use the interrupt() capability of threads
@@ -19,7 +19,7 @@ Create a SensorView that has a JButton with the label "Sensor<n>" where <n> is t
 
 When Sensor7 is clicked, the program terminates (by ending the thread and returning, thus joining the main).
 
-#Deliverables
+# Deliverables
 
 1. Documented code in .zip file
 2. Sample of output from a run.
