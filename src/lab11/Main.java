@@ -13,8 +13,6 @@ public class Main {
 		
 		sensorArray = new Thread[8];
 		
-		
-		
 		for (int i = 0; i < 8; i++){
 			sensorArray[i] = (new Thread(new Sensor("Sensor" + i)));
 			sensorArray[i].start();
